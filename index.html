@@ -276,6 +276,9 @@
         //hide cblic field
         displayCblic.classList.toggle("d-none");
         isCblic = false;
+        //toggle the text and background color of cblic button
+        btnCblic.innerText = "ADD CBLIC";
+        btnCblic.style.backgroundColor = "#1a73ba";
       };
 
       //handle clear for form2 (div)
@@ -381,7 +384,7 @@
         } else {
           isCblic = false;
           btnCblic.innerText = "ADD CBLIC";
-          btnCblic.style.backgroundColor = "green";
+          btnCblic.style.backgroundColor = "#1a73ba";
           calculate();
         }
       };
